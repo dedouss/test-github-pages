@@ -10,3 +10,4 @@ gem "github-pages", group: :jekyll_plugins
 gem "webrick", "~> 1.8"    # Нужен для Ruby 3.0
 gem "jekyll-sitemap"       # Генерация sitemap
 gem "jekyll-seo-tag"       # SEO теги
+gem "jekyll-remote-theme"

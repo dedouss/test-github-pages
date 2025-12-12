@@ -1,7 +1,22 @@
 title: "Мой тестовый сайт"
 description: "Тестируем GitHub Pages"
-baseurl: ""  # Оставьте пустым для GitHub Pages
+baseurl: "/test-github-pages"  # для GitHub Pages
 url: "https://dedouss.github.io"  # Замените на ваш
+
+# Навигация
+navigation:
+  - title: "Главная"
+    url: /
+      # - title: "Документация"
+    # url: /docs/
+      #- title: "Инструменты"
+    #    url: /tools/
+  #  - title: "Команда"
+  # url: /team/
+  - title: "Блог"
+    url: /_posts/
+  - title: "404"
+    url: /404.md
 
 # Настройки для GitHub Pages
 theme: minima
@@ -9,6 +24,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Дата
+timezone: Europe/Moscow
+lang: ru-RU
 
 # Настройки сборки
 markdown: kramdown
