@@ -18,7 +18,7 @@ title: "Добро пожаловать!"
 
 - [Документация GitHub Pages](https://docs.github.com/en/pages)
 - [Документация Jekyll](https://jekyllrb.com/)
-- [Мой GitHub](https://github.com/ваш-username)
+- [Мой GitHub](https://github.com/dedouss)
 
 ---
 *Сайт создан: {{ site.time | date: "%d.%m.%Y" }}*
