@@ -1,0 +1,24 @@
+title: "Мой тестовый сайт"
+description: "Тестируем GitHub Pages"
+baseurl: ""  # Оставьте пустым для GitHub Pages
+url: "https://dedouss.github.io"  # Замените на ваш
+
+# Настройки для GitHub Pages
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Настройки сборки
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Настройки сайта
+show_excerpts: true
+future: false
+
+# GitHub Pages автоматически устанавливает эти настройки
+github:
+  is_project_page: false
